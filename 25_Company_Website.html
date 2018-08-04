@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Company Website</title>
+    <link rel="stylesheet" href="../font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    body{
+    	margin:0px;
+    	font-family:sans-serif;
+    }
+    header,footer{
+    	background-image:url("https://zippy.gfycat.com/DelightfulKindGoral.gif");
+    	padding:15px;
+    	color:white;
+    	text-align:center;
+    	background-size:cover;
+    }
+
+    footer{
+    	line-height: 10px;
+    }
+    /* --- Main Navigation Bar--- */
+    nav{
+    	overflow: hidden;
+    	background-color:black;
+    	
+    }
+    nav ul{
+    	list-style-type: none;
+    	padding: 0px;
+    	margin: 0px;
+    }
+    nav ul li{
+    	float: left;
+    	padding:10px;
+    }
+    
+    nav ul li a{
+    	text-decoration: none;
+    	color:white;
+    	display: inline-block;
+    	padding: 10px 25px;
+    	font-size: 18px;
+	}
+    nav ul li a:hover{
+    	background-color: seagreen;
+    }
+    nav ul li a.active{
+    	background-color:seagreen;
+    }
+
+    /*-- Section ---*/
+    details{
+        	
+        	background-color:black;
+        	color:yellow;
+        	padding:10px;
+        	border-radius:10px;
+        	margin:5px;
+        }
+        summary{
+        	outline:none;
+        }
+        article{
+        	background-color:purple;
+        	padding:25px;
+        	border-radius:10px;
+        	color:white;
+        	margin:5px;
+        }
+
+        /*-------------Side Navigation----------------*/
+        aside{
+        	background-color:brown;
+        	float: left;
+        	width:200px;
+        	text-align: center;
+        	height:368px;
+        	overflow-y: scroll;
+
+
+
+        }
+        aside ul li a{
+        	text-decoration: none;
+        	padding: 20px 25px;
+        	display: block;
+        	color: white;
+        }
+        aside ul{
+        	list-style-type: none;
+        	padding: 0px;
+        	margin: 0px;
+        }
+    	
+    	  aside ul li a:hover{
+        	background-color:gray;
+        	padding:8px;
+        	color:black;
+        }
+
+        /*----- Main Content Section------------*/
+        section{
+        	margin-left: 200px;
+        	border-left: 2px solid gray;
+        	padding: 10px;
+        }
+
+    
+
+	</style>
+</head>
+<body>
+	<!-- Main Header -->
+	<header>
+	 	<h1>UiBrains Technologies</h1>
+	 	<p>The smart way of Learning</p>
+	</header>
+
+	<!-- Main Navigation -->
+	<nav>
+		<ul>
+			<li>
+				<a href="#" class="active">Home</a>
+			</li>
+			<li>
+				<a href="#">About Us</a>
+			</li>
+			<li>
+				<a href="#">Contact Us</a>
+			</li>
+			<li>
+				<a href="#">Careers</a>
+			</li>
+			<li>
+				<a href="#">Courses</a>
+			</li>
+		</ul>
+	</nav>
+
+	<!-- Sidebar Navigation -->
+	<aside>
+		<ul>
+			<li>
+				<a href="#" class="active">HTML5</a>
+			</li>
+			<li>
+				<a href="#">CSS3</a>
+			</li>
+			<li>
+				<a href="#">JavaScript</a>
+			</li>
+			<li>
+				<a href="#">JQuery</a>
+			</li>
+			<li>
+				<a href="#">Bootstrap</a>
+			</li>
+			<li>
+				<a href="#">AJAX</a>
+			</li>
+			<li>
+				<a href="#">AngularJS</a>
+			</li>
+			<li>
+				<a href="#">TypeScript</a>
+			</li>
+		</ul>
+	</aside>
+
+	<!-- Main Content -->
+	<!-- HTML5 -->
+	<section>
+	<details>
+		<summary>HTML5</summary>
+    	<article>
+    		HTML 5 is a markup language used for structuring and presenting content on the World Wide Web. It is the fifth and current major version of the HTML standard, and subsumes XHTML. It currently exists in two standardized forms.
+    	</article>
+   	</details>
+
+
+   	<!-- CSS3 -->
+    <details>
+    	<summary>CSS3</summary>
+    	<article>
+    		CSS3 is the latest evolution of the Cascading Style Sheets language and aims at extending CSS2.1. It brings a lot of long-awaited novelties, like rounded corners, shadows, gradients, transitions or animations, as well as new layouts like multi-columns, flexible box or grid layouts.
+    	</article>
+    </details>
+
+
+    <!-- JavaScript -->
+    <details>
+    	<summary>JavaScript</summary>
+    	<article>
+    		JavaScript, often abbreviated as JS, is a high-level, interpreted programming language. It is a language which is also characterized as dynamic, weakly typed, prototype-based and multi-paradigm.
+    	</article>
+    </details>
+
+
+    <!-- JQuery -->
+    <details>
+    	<summary>JQuery</summary>
+    	<article>
+    		jQuery is a cross-platform JavaScript library designed to simplify the client-side scripting of HTML. It is free, open-source software using the permissive MIT License.
+    	</article>
+    </details>
+
+
+    <!-- Bootstrap -->
+    <details>
+    	<summary>Bootstrap</summary>
+    	<article>
+    		Bootstrap is a free and open-source front-end framework for designing websites and web applications.
+    	</article>
+    </details>
+
+
+    <!-- AJAX -->
+    <details>
+    	<summary>AJAX</summary>
+    	<article>
+    		Ajax is a set of Web development techniques using many Web technologies on the client side to create asynchronous Web applications.
+    	</article>
+    </details>
+
+
+    <!-- Angular JS -->
+    <details>
+    	<summary>Angular JS</summary>
+    	<article>
+    		AngularJS is a JavaScript-based open-source front-end web application framework mainly maintained by Google and by a community of individuals and corporations to address many of the challenges encountered in developing single-page applications.
+    	</article>
+    </details>
+
+
+    <!-- TypeScript -->
+    <details>
+    	<summary>TypeScript</summary>
+    	<article>
+    		TypeScript is an open-source programming language developed and maintained by Microsoft. It is a strict syntactical superset of JavaScript, and adds optional static typing to the language. 
+    	</article>
+    </details>
+	</section>
+
+
+<!-- Main Footer -->
+	<footer>
+		<h2>Copyright &copy; 2018, UiBrains Technologies</h2>
+		<p>All Rights Reserved</p>
+		<small>Developed and Maintained by Subodh</small>
+	</footer>		
+</body>
+</html>
